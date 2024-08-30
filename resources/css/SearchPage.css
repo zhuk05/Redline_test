@@ -1,0 +1,34 @@
+.main_container {
+    display: flex;
+}
+
+.part {
+    width: 50%;
+}
+.lists {
+    padding-left: 20px;
+}
+li {
+    line-height: 30px;
+}
+.search_wrapper {
+    padding: 10px 0 0 10px;
+}
+.search_wrapper > input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+span {
+    padding-left: 15px;
+}
+.save_btn {
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    transition: 300ms ease;
+}
+.save_btn:hover {
+    background-color: #2cc56a;
+    color: #FFFFFF;
+}
